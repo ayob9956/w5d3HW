@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Watch Store</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+<script src="https://kit.fontawesome.com/7aa9e24284.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div style="background-color: rgb(20, 20, 154);"> 
+    <nav  class="navbar  h-25 ">
+    <div class="container-fluid">
+      <a class="navbar-brand "><i class="fa-regular fa-clock" style="color: aliceblue;"></i></a>
+      <h4 class="d-flex pe-3 " style="color: aliceblue;">Watcher</h4>
+    </div>
+  </nav></div>
+
+<div class="language-switcher">
+  <button id="lang-en" onclick="switchLanguage('en')">English</button>
+  <button id="lang-ar" onclick="switchLanguage('ar')">العربية</button>
+</div>
+
+<div class="product-display align-items-center align-content-center ">
+    <div class="continer">
+  <img id="product-image" src="black.png" alt="Smart Watch">
+  <div id="current-time"></div></div>
+  <div class="color-choices">
+    <button onclick="changeColor('black')">Black</button>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('pinck')">Pinck</button>
+    <button onclick="changeColor('blue')">Blue</button>
+
+    <button onclick="changeColor('white')">White</button>
+
+
+    
+  </div>
+</div>
+
+
+<footer class="bg-light text-center text-lg-start fixed-bottom">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgb(14, 14, 161); color: aliceblue;">
+    © 2023 Copyright
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</body>
+<script src="main.js" defer></script>
+</html>
